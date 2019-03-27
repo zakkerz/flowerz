@@ -6,11 +6,9 @@ h1 {
   color: navy;
   margin-left: 20px;
 }
-
-p {
-  font-family: verdana;
-  font-size: 20px;
-}
+<html>
+<head>
+<style>
 ul {
   list-style-type: none;
   margin: 0;
@@ -34,3 +32,16 @@ li a {
 li a:hover {
   background-color: #111;
 }
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+
+</body>
+</html>
